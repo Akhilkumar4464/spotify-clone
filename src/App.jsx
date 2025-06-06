@@ -1,13 +1,21 @@
 import React from "react"
+import SideBar from "./compoenents/SideBar"
+import Player from "./compoenents/Player"
+import Display from "./compoenents/Display"
 
 
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 function App() {
   
 
   return (
-    <>
-      <h1 className=" text-4xl font-extrabold"> spotify clone </h1>
-    </>
+    <div className="h-screen bg-black">
+     <div className="h-[90%] flex">
+      <SideBar/>
+      <Display/>
+     </div>
+     <Player/>
+    </ div>
   )
 }
 
