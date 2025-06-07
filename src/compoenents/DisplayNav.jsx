@@ -17,7 +17,7 @@ function DisplayNav() {
 } className='w-8 bg-black p-2 rounded-2xl cursor-pointer hover:scale-110' src={assets.arrow_right}   alt="" />
         </div>
         <div className='flex items-center gap-4'>
-<p className='bg-white text-black text-[15px] px-4 py-1 rounded-2xl hidden md:block cursor-pointer'> Explore preimum </p>
+<p className='bg-white text-black text-[15px] px-4 py-1 rounded-2xl hidden md:block cursor-pointer'> Explore Primium </p>
 <p className='bg-black py-1 px-3 rounded-2xl text-[15px] cursor-pointer'>Install app</p>
   <p className='bg-purple-600 text-black w-7 rounded-full flex items-center justify-center'>Ak </p>  
         </div>

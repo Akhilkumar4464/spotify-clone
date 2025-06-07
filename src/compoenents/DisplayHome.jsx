@@ -9,7 +9,7 @@ function DisplayHome() {
     <>
       <DisplayNav />
       <div className="mb-4 ">
-        <h1 className="my-3 font-bold text-2xl ">Feactered chart </h1>
+        <h1 className="my-3 font-bold text-2xl ">feature chart  </h1>
         <div className=" flex overflow-auto">
           {albumsData.map((item, index) => {
             return (
@@ -30,7 +30,7 @@ function DisplayHome() {
       
       
        <div className="mb-4 ">
-        <h1 className="my-3 font-bold text-2xl ">Feactered chart </h1>
+        <h1 className="my-3 font-bold text-2xl "> Top hits today  </h1>
         <div className=" flex overflow-auto">
           {songsData.map((item,index)=>(
             <Songsitem key={index} name={item.name} image={item.image} id={item.id} desc={item.desc} />
